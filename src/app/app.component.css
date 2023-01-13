@@ -1,0 +1,126 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 10;
+    padding: 10;
+    font-family: 'Poppins', sans-serif; ;
+  }
+  .chartMenu {
+    width: 100vw;
+    height: 40px;
+    background: white;
+    color: black;
+  }
+  .chartMenu p {
+    padding: 30px;
+    font-size: 10px;
+  }
+  .chartCard {
+    width: 300vm;
+    
+    height: calc(100vh - 40px);
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chartBox {
+   
+    width: 700px;
+    height: 380px;
+    padding: 10px;
+    border-radius: 10px;
+  
+    border: solid 3px rgb(177, 51, 59);
+    background: white;
+  }
+  
+  .chartBox1 {
+   
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    border: solid 4px orange;
+    display: flex;
+    flex-direction: column;
+  
+    background: white;
+  }
+  .chartBox2{
+   
+    width: 600px;
+    height: 320px;
+    padding: 10px;
+    border-radius: 20px;
+  
+    border: solid 3px rgb(212, 57, 96);
+    background: white;
+  }
+  /*  Background Image */
+
+
+  
+
+
+
+    /* Inset */
+    
+    .multicolor-text {
+      text-align: center;
+      font-size: 50px;
+      background: linear-gradient(to left,
+              violet,
+              indigo,
+              blue,
+              green,
+              yellow,
+              orange,
+              red);
+      
+      color: transparent;
+  }
+  .button {
+    background-color: #08810c;
+  border: none;
+    border-radius: 25px;
+    color: rgb(237, 249, 5);
+    padding: 13px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 6px 4px;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: #ff0606;
+border: none;
+    border-radius: 25px;
+    color: rgb(251, 251, 252);
+    padding: 13px 28px;
+    text-align: center;
+    font-size: 18px;
+    margin: 6px 4px;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    background-color: #570e17;
+  border: none;
+    border-radius: 25px;
+    color: rgb(237, 249, 5);
+    padding: 13px 28px;
+    text-align: center;
+    
+    font-size: 18px;
+    margin: 6px 4px;
+    cursor: pointer;
+  }
+  
+
+
+  span {
+    font-size: 34px;
+    position: relative;
+  }
